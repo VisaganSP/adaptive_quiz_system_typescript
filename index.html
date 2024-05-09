@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visagan's Quiz Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Visagan's Quiz Generator</h1>
+      <h3>Welcome to Quiz Generator</h3>
+      <label for="category">Select Category:</label>
+      <select id="category"></select>
+      <label for="difficulty">Select Difficulty:</label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <button id="startQuiz">Start Quiz</button>
+    </div>
+    <div id="quizContainer"></div>
+    <div id="resultContainer"></div>
+    <script src="dist/script.js"></script>
+  </body>
+</html>
